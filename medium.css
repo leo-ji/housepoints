@@ -1,0 +1,31 @@
+body {overflow-y:hidden;}
+
+
+.board {    text-align: center; width: 100%;
+            border-bottom: 5px solid gray}
+table.current-standing {width: 100%; height: 300px; font-size: 1.5em}
+
+
+.board-house-colour-holder {width: 25px; vertical-align: middle; padding-left: 40px}
+
+.board-house-colour {width: 25px; height: 25px;
+                        -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                        }
+
+.adminlink {display: none;}
+
+.credit-points {margin: 10px 0;}
+img.logo {width: 100%; display: none;}
+
+.house-points-history-holder {width: 100%;}
+.house-points-history {width: 100%;}
+
+.house-points-history td~td, .house-points-history th~th {width: 12%}
+.house-points-history th~th {}
+
+.spirit-points-history-holder {width: 100%;}
+.spirit-points-history {width: 100%;}
+
+.spirit-points-history td~td, .spirit-points-history th~th {width: 12%}
+.spirit-points-history th~th {}
